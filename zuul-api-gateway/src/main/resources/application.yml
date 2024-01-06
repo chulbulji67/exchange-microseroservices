@@ -1,0 +1,8 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: CURRENCY-EXCHANGE-SERVICE
+#          predicates:
+#            - Path=/currency-exchange/*
+#          uri: localhost:8000
